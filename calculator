@@ -1,0 +1,27 @@
+#include"stdio.h"
+int main(){
+    int a,b;
+    char t;
+
+       printf("Select operation +  -  *  / \n");
+       scanf("%c",&t);
+       printf("Enter 2 No \n");
+       scanf("%d %d",&a,&b);
+       switch(t){
+           case '+' :
+                   printf("Sum is %d ",a+b);
+                   break ;
+           case '-' :
+                   printf("Difference is %d ",a-b);
+                   break ;
+           case '*' :
+                  printf("Product is %d ",a*b);
+                  break ;
+           case '/' :
+                   printf("Division is %lf ",(double)a/(double)b);
+                   break ;
+           default :
+                   printf("Please Enter Valid Operator");
+       }
+
+}
