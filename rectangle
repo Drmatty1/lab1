@@ -1,0 +1,9 @@
+#include"stdio.h"
+int main(){
+    printf("Enter Lenth and Breath of Rectangle : \n");
+    double a,b;
+    scanf("%lf %lf",&a,&b);
+    printf("Area is %lf\n",a*b);
+    printf("PERIMETER is %lf\n",2*a+2*b);
+
+}
