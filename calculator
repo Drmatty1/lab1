@@ -12,13 +12,13 @@ int main(){
                    printf("Sum is %d ",a+b);
                    break ;
            case '-' :
-                   printf("Difference is %d ",a-b);
+                   printf("a-b is %d ",a-b);
                    break ;
            case '*' :
                   printf("Product is %d ",a*b);
                   break ;
            case '/' :
-                   printf("Division is %lf ",(double)a/(double)b);
+                   printf("a/b is %lf ",(double)a/(double)b);
                    break ;
            default :
                    printf("Please Enter Valid Operator");
