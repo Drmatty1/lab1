@@ -1,0 +1,10 @@
+#include<stdio.h>
+#define pie 3.1415
+int main (){
+
+    double r;#
+    printf("Enter Radius : ");
+    scanf("%lf",&r);
+    printf("Area is : %lf\n",pie*r*r);
+    printf("Circumference is : %lf\n",2*pie*r);
+}
