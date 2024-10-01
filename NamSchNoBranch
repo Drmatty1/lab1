@@ -1,0 +1,22 @@
+#include"stdio.h"
+using namespace std;
+
+int main() {
+    char Branch[32], Sn[12],name[32];
+
+
+    printf("Enter Your Name \n");
+    fgets(name,sizeof(name),stdin);
+
+    printf("Enter Your branch \n");
+    fgets(Branch,sizeof(Branch),stdin);
+
+    printf("Enter Your scholar No \n");
+    fgets(Sn,sizeof(Sn),stdin);
+
+    printf("Name : %s\n",name);
+    printf("Scholar No : %s\n",Sn);
+    printf("Branch : %s\n",Branch);
+return 0;
+
+}
